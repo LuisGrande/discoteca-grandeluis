@@ -7,7 +7,14 @@ body{
 .nav-color{
     background-image: linear-gradient(to right, black, rgb(65, 62, 62));
 }
+.navbar-brand{
+    color: white;
+    transition: all .3s ease-in-out;
+}
 
+.navbar-brand:hover{
+    color: rgb(171 43 43 / 90%);
+}
 .navbar-brand img{
     margin-left: 60px;
     width: 50px;
