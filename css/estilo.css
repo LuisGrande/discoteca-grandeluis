@@ -1,0 +1,31 @@
+/*  */
+
+.nav-color{
+    background-image: linear-gradient(to right, black, rgb(65, 62, 62));
+}
+
+.navbar-brand img{
+    width: 50px;
+    height: auto;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: space-around;
+}
+
+.nav-link{
+    color: white;
+}
+
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: rgb(171 43 43 / 90%);
+}
+.nav-item{
+    padding: 0 10px;
+}
+.nav-item a:hover{
+    color: rgb(171 43 43 / 90%);
+}
+
+
