@@ -3,6 +3,13 @@ body{
 }
 
 /* inicio nav */
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 4000;
+}
 
 .nav-color{
     background-image: linear-gradient(to right, black, rgb(65, 62, 62));
