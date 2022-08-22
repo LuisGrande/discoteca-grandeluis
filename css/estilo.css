@@ -68,11 +68,19 @@ body{
 
 /* acerca de nosotros */
 /* inicio de acerca de */
+.acercaDeNosotros{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+}
+
 .acercaDeNosotros h1{
     text-align: center;
+    padding-bottom: 40px;
     text-transform: uppercase;
     font-size: 40px;
-    margin-bottom: 20px;
     color: aliceblue;
 }
 
@@ -81,3 +89,19 @@ body{
     color: aliceblue;
 }
 /* fin de acerca de  */
+/*  */
+/* inicio de espacios */
+
+/* fin de espacios */
+
+/* inicio imagen banner */
+.imagen-banner{
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+/* final de imagen banner */
