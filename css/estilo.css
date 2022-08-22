@@ -1,10 +1,15 @@
-/*  */
+body{
+    background-image: linear-gradient(to bottom, black,rgb(155, 73, 73));
+}
+
+/* nav */
 
 .nav-color{
     background-image: linear-gradient(to right, black, rgb(65, 62, 62));
 }
 
 .navbar-brand img{
+    margin-left: 60px;
     width: 50px;
     height: auto;
 }
@@ -28,4 +33,31 @@
     color: rgb(171 43 43 / 90%);
 }
 
+/*inicio  carrusel */
 
+.carousel-inner{
+    height: 400px;
+
+}
+
+.carousel-item img{
+    object-fit: cover;
+    /* width: 400px; */
+    height: 400px;
+}
+
+/* acerca de nosotros */
+/* inicio de acerca de */
+.acercaDeNosotros h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+
+.acercaDeNosotros p{
+    text-align: justify;
+    color: aliceblue;
+}
+/* fin de acerca de  */
