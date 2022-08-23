@@ -95,6 +95,12 @@ body{
 /* fin de espacios */
 
 /* inicio imagen banner */
+.text-form h2{
+    color: whitesmoke;
+    margin-top: 20px;
+    margin-left: 20px;
+ 
+}
 .imagen-banner{
     background-image: url(../img/banner.jpg);
     background-position: center;
@@ -105,3 +111,10 @@ body{
     width: 100%;
 }
 /* final de imagen banner */
+/* inicio de form */
+.form-img{
+    background-image: url(../img/imgForm.jpg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
