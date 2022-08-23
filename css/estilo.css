@@ -118,3 +118,20 @@ body{
     background-repeat:no-repeat;
     background-size: cover;
 }
+
+/* fin del form */
+/* inicio del  footer */
+.footer{
+    color: whitesmoke;
+    text-align: center;
+}
+
+.fa-brands{
+    font-size: 30px;
+
+}
+
+.social-link{
+    margin: 10px 20px;
+    color: brown;
+}
