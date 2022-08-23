@@ -91,7 +91,10 @@ body{
 /* fin de acerca de  */
 /*  */
 /* inicio de espacios */
-
+.card-item{
+    margin: 20px;
+    padding: 20px;
+}
 /* fin de espacios */
 
 /* inicio imagen banner */
