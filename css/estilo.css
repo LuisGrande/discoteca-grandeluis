@@ -1,5 +1,6 @@
 body{
     background-image: linear-gradient(to bottom, black,rgb(155, 73, 73));
+    background-repeat: no-repeat;
 }
 
 /* inicio nav */
@@ -7,8 +8,10 @@ body{
     position: fixed;
     top: 0;
     left: 0;
+    
     width: 100%;
     z-index: 4000;
+    
 }
 
 .nav-color{
@@ -127,6 +130,7 @@ body{
 .footer{
     color: whitesmoke;
     text-align: center;
+    margin-top: 80px;
 }
 
 .fa-brands{
@@ -137,4 +141,52 @@ body{
 .social-link{
     margin: 10px 20px;
     color: brown;
+}
+
+/* estilo del form */
+
+.intro {
+  height: 100%;
+}
+.bg-image{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.formulario{
+    width: 100%;
+    margin-top: 80px;
+
+}
+
+@media (min-width: 550px) and (max-width: 750px) {
+  html,
+  body,
+  .intro {
+    height: 750px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  .intro {
+    height: 750px;
+  }
+}
+
+.mask-custom {
+  backdrop-filter: blur(15px);
+  background-color: rgba(255,255,255,.2);
+  border-radius: 3em;
+  border: 2px solid rgba(255,255,255,.1);
+  background-clip: padding-box;
+  box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+}
+
+.boton-enviar{
+   text-align: center;
+  
 }
